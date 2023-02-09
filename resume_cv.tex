@@ -43,57 +43,25 @@
 \renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad} % If you would like to change the social information separator from a pipe (|) to something else
 
 %----------------------------------------------------------------------------------------
-%	PERSONAL INFORMATION
-%	Comment any of the lines below if they are not required
-%----------------------------------------------------------------------------------------
 
-\name{José Filipe}{Ferreira}
-\address{Real, Braga, Portugal}
-\mobile{(+351) 919 103 819}
+\input{header.tex}
 
-\email{jose.filipe.matos.ferreira@gmail.com}
-% \homepage{www.posquit0.com}
-\github{JoseFilipeFerreira}
-\linkedin{jfferreira}
-%\skype{skypeid}
-%\stackoverflow{SOid}{SOname}
-%\twitter{@twit}
-%\linkedin{linkedin name}
-%\reddit{reddit account}
-%\xing{xing name}
-%\extrainfo{test} % Other text you want to include on this line
-
-\position{Computer Software Engineer{\enskip\cdotp\enskip}High Performance
-Computing} % Your expertise/fields
-% \quote{``Make the change that you want to see in the world."} % A quote or statement
-
-\makecvfooter{\today}{José Filipe
-Ferreira~~~·~~~Curriculum Vitae}{\thepage} % Specify the letter footer with 3 arguments: (<left>, <center>, <right>), leave any of these blank if they are not needed
+\makecvfooter{\today}{José Filipe Ferreira~~~·~~~Curriculum Vitae}{\thepage}
 
 %----------------------------------------------------------------------------------------
 
 \begin{document}
 
-\makecvheader % Print the header
-
-%----------------------------------------------------------------------------------------
-%	CV/RESUME CONTENT
-%	Each section is imported separately, open each file in turn to modify content
-%----------------------------------------------------------------------------------------
+\makecvheader
 
 \input{cv-sections/education.tex}
+\input{cv-sections/experience.tex}
 \input{cv-sections/skills.tex}
-% \input{cv-sections/experience.tex}
-
 \input{cv-sections/projects.tex}
 
-\newpage % Force a new page for looks
+\newpage
 
 \input{cv-sections/extracurricular.tex}
-% \input{cv-sections/honors.tex}
-% \input{cv-sections/presentation.tex}
-% \input{cv-sections/writing.tex}
-% \input{cv-sections/committees.tex}
 
 %----------------------------------------------------------------------------------------
 
